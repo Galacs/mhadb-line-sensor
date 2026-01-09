@@ -5631,16 +5631,52 @@
 		(uuid "fa50abfc-38e4-442c-8b6a-f0c1fc9b1d9f")
 	)
 	(no_connect
+		(at 87.63 82.55)
+		(uuid "04f79038-ae59-4ed3-a92e-5ac874aecb6e")
+	)
+	(no_connect
+		(at 87.63 85.09)
+		(uuid "0d0314a8-322f-4fd2-b218-3028f4b827a4")
+	)
+	(no_connect
+		(at 87.63 102.87)
+		(uuid "1b40791e-0a4e-4410-89f3-34a671647ad3")
+	)
+	(no_connect
+		(at 123.19 82.55)
+		(uuid "213974a9-3b8a-4d39-ba1f-ca31cbb2d909")
+	)
+	(no_connect
 		(at 276.86 130.81)
 		(uuid "480e39f2-b97e-43cf-9c9d-11213140d8e7")
+	)
+	(no_connect
+		(at 87.63 100.33)
+		(uuid "5c73748a-e523-4b88-8783-b07e5be7b2c4")
 	)
 	(no_connect
 		(at 30.48 140.97)
 		(uuid "6abadf00-d3a6-4bbd-9e31-e6a2b150d697")
 	)
 	(no_connect
+		(at 87.63 80.01)
+		(uuid "94152bd2-f4fb-4706-b022-270f6c2c3fb8")
+	)
+	(no_connect
 		(at 276.86 110.49)
 		(uuid "98ea98d3-f64c-4a02-a25b-1c84fa282659")
+	)
+	(no_connect
+		(at 87.63 128.27)
+		(uuid "afd5a384-3a4a-492b-b4f5-a676372309ad")
+	)
+	(no_connect
+		(at 87.63 125.73)
+		(uuid "b4523d31-6fe1-49c7-acd3-ffe1787f9456")
+	)
+	(no_connect
+		(at 87.63 95.25)
+		(uuid "c5506e17-1eab-42f4-bbf1-2e1ee9ca5f68")
 	)
 	(wire
 		(pts
@@ -8614,6 +8650,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 92.71) (xy 123.19 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10c524b-d673-4adc-997c-a22de4d392a0")
+	)
+	(wire
+		(pts
 			(xy 194.31 67.31) (xy 195.58 67.31)
 		)
 		(stroke
@@ -9024,6 +9070,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 90.17) (xy 123.19 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e923518d-c447-4d7c-a5f2-812b8d83d0ac")
+	)
+	(wire
+		(pts
 			(xy 81.28 92.71) (xy 87.63 92.71)
 		)
 		(stroke
@@ -9361,6 +9417,16 @@
 			(justify right bottom)
 		)
 		(uuid "33f6bfc7-5a6c-4404-81e7-ea58e46c7dd1")
+	)
+	(label "CAN_RX"
+		(at 130.81 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "381c65e8-e6dd-45d6-93ac-bacc8cdbe277")
 	)
 	(label "CAN_RX"
 		(at 22.86 138.43 0)
@@ -9741,6 +9807,16 @@
 			(justify right bottom)
 		)
 		(uuid "e9b21087-352e-4d2d-b309-817ccf7a13dd")
+	)
+	(label "CAN_TX"
+		(at 130.81 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee3609ef-d5fe-4af8-8785-22f4a3b69472")
 	)
 	(label "U0TXD"
 		(at 130.81 85.09 180)
