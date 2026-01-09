@@ -5224,7 +5224,7 @@
 		(uuid 9de57ad5-5dce-4231-8a49-a5fd6ac855ad)
 	)
 	(rectangle
-		(start 71.12 160.655)
+		(start 71.12 154.94)
 		(end 101.6 195.58)
 		(stroke
 			(width 0)
@@ -5685,7 +5685,7 @@
 		(uuid "7ea59e2f-5d04-41ae-83c0-39a60edac439")
 	)
 	(junction
-		(at 91.44 168.91)
+		(at 91.44 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ffba20e-4748-4a71-8282-1e033ea1eb0f")
@@ -6838,6 +6838,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 168.91) (xy 78.74 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3095c09d-5c20-4d23-b26e-fb0112dd5bbe")
+	)
+	(wire
+		(pts
 			(xy 219.71 101.6) (xy 236.22 101.6)
 		)
 		(stroke
@@ -7518,6 +7528,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 168.91) (xy 99.06 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d8e1c67-8f86-4fce-ad4a-ce2946e8c5a0")
+	)
+	(wire
+		(pts
 			(xy 40.64 128.27) (xy 40.64 130.81)
 		)
 		(stroke
@@ -7548,7 +7568,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 168.91) (xy 77.47 168.91)
+			(xy 78.74 162.56) (xy 77.47 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8498,7 +8518,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 168.91) (xy 77.47 167.64)
+			(xy 77.47 162.56) (xy 77.47 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8628,7 +8648,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 168.91) (xy 91.44 168.91)
+			(xy 88.9 162.56) (xy 91.44 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8868,7 +8888,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 168.91) (xy 99.06 168.91)
+			(xy 91.44 162.56) (xy 99.06 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9035,6 +9055,16 @@
 			(type default)
 		)
 		(uuid "cd88bd9c-edb3-41dc-ad7e-1984f839dbd7")
+	)
+	(wire
+		(pts
+			(xy 77.47 170.18) (xy 77.47 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd922e1d-20ee-46e0-8635-6e82962ae110")
 	)
 	(wire
 		(pts
@@ -10007,7 +10037,7 @@
 		(uuid "697f87e7-438e-48e5-9c33-4a5e537ef2dd")
 	)
 	(label "BOOT"
-		(at 99.06 168.91 180)
+		(at 99.06 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10035,6 +10065,16 @@
 			(justify right bottom)
 		)
 		(uuid "7b7d68e3-a95d-4d40-b7e0-3151ac862d63")
+	)
+	(label "EMS"
+		(at 99.06 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81cad236-0a86-4d5c-be59-93b6881c838c")
 	)
 	(label "SWO"
 		(at 101.6 100.33 0)
@@ -12150,6 +12190,110 @@
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 83.82 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b5fba0b-4fab-4103-9999-1adbf9e8fa5a")
+		(property "Reference" "SW5"
+			(at 83.82 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 83.82 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
+			(at 83.82 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 83.82 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OMRON"
+			(at 83.82 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "B3F-4055"
+			(at 83.82 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Z"
+			(at 83.82 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C84931"
+			(at 83.82 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e4a32974-e810-4ea2-be06-aa010cbdaba8")
+		)
+		(pin "1"
+			(uuid "2e89c741-d8ca-4ed8-9812-7ac7b9c46e1f")
+		)
+		(instances
+			(project "mhadb-line-sensor"
+				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -17065,7 +17209,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 83.82 168.91 0)
+		(at 83.82 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17073,7 +17217,7 @@
 		(dnp no)
 		(uuid "5de6ea55-a8c1-4e49-91c4-c57a34c0b460")
 		(property "Reference" "SW1"
-			(at 83.82 170.688 0)
+			(at 83.82 164.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17081,7 +17225,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 83.82 163.83 0)
+			(at 83.82 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17090,7 +17234,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
-			(at 83.82 163.83 0)
+			(at 83.82 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17099,7 +17243,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 163.83 0)
+			(at 83.82 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17108,7 +17252,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 83.82 168.91 0)
+			(at 83.82 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17117,7 +17261,7 @@
 			)
 		)
 		(property "Manufacturer" "XUNPU"
-			(at 83.82 168.91 0)
+			(at 83.82 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17126,7 +17270,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TS-1088-AR02016"
-			(at 83.82 168.91 0)
+			(at 83.82 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17135,7 +17279,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 83.82 168.91 0)
+			(at 83.82 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17144,7 +17288,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C720477"
-			(at 83.82 168.91 0)
+			(at 83.82 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18640,7 +18784,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 77.47 167.64 0)
+		(at 77.47 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18648,7 +18792,7 @@
 		(dnp no)
 		(uuid "7b3ed80c-e3e1-42d6-aa13-6f9930b69d4a")
 		(property "Reference" "#PWR020"
-			(at 77.47 171.45 0)
+			(at 77.47 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18657,7 +18801,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 77.47 163.83 0)
+			(at 77.47 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18665,7 +18809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 167.64 0)
+			(at 77.47 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18674,7 +18818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 167.64 0)
+			(at 77.47 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18683,7 +18827,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 77.47 167.64 0)
+			(at 77.47 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19384,6 +19528,72 @@
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "896bc13e-9549-4a1d-b52e-cb4a2c638b02")
+		(property "Reference" "#PWR062"
+			(at 77.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.216 174.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f8c018a-59d2-4e82-a48a-0ed2bf4c727e")
+		)
+		(instances
+			(project "mhadb-line-sensor"
+				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -24119,7 +24329,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 91.44 168.91 0)
+		(at 91.44 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -24127,7 +24337,7 @@
 		(dnp no)
 		(uuid "d7fdc77b-6426-4809-bd74-155280e5e8d6")
 		(property "Reference" "TP3"
-			(at 89.916 163.83 0)
+			(at 89.916 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24136,7 +24346,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 93.98 166.8779 0)
+			(at 93.98 160.5279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24146,7 +24356,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 96.52 168.91 0)
+			(at 96.52 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24155,7 +24365,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 168.91 0)
+			(at 96.52 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24164,7 +24374,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 91.44 168.91 0)
+			(at 91.44 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
