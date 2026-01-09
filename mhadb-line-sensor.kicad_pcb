@@ -6994,7 +6994,7 @@
 		(property "Reference" "U3"
 			(at 0 -5.85 0)
 			(layer "F.SilkS")
-			(uuid "61d9a0f3-21ad-4173-a681-66cf709109c8")
+			(uuid "4ec579db-3f67-43d3-a576-5d66e6f96028")
 			(effects
 				(font
 					(size 1 1)
@@ -7005,7 +7005,7 @@
 		(property "Value" "STM32F103C8Tx"
 			(at 0 5.85 0)
 			(layer "F.Fab")
-			(uuid "bd682e4b-9ccc-4484-8b8a-265e18b86a53")
+			(uuid "95cbcf47-9902-486d-bd3d-a8899a236693")
 			(effects
 				(font
 					(size 1 1)
@@ -7017,7 +7017,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "862ba524-9c4c-4793-b46d-bb1e783989a5")
+			(uuid "f4cfb342-9786-4e63-8d84-6ed83509fbc9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7029,7 +7029,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3ec248d8-ca2a-4510-9929-db073842e916")
+			(uuid "f6efba45-5f52-44c8-91fc-7c08f6cb6524")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8297,7 +8297,7 @@
 		(property "Reference" "H1"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
-			(uuid "18e81999-8148-42b0-bef2-129e914267e5")
+			(uuid "822e8bf0-800a-4541-bef1-17352512af8f")
 			(effects
 				(font
 					(size 1 1)
@@ -8308,7 +8308,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 3.15 0)
 			(layer "F.Fab")
-			(uuid "b836fe35-f22d-4008-9570-55d241303bc6")
+			(uuid "82857064-19e7-452d-9615-cec2aed7c4ab")
 			(effects
 				(font
 					(size 1 1)
@@ -8320,7 +8320,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2355b919-3ad6-4e0e-a9d3-6b92c0025eec")
+			(uuid "1966c2e7-c10c-41e7-afb9-85c0794e27c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8332,7 +8332,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6fb322c9-db33-4ad5-82e4-96ed85d2ba20")
+			(uuid "31987dc5-20c8-43b3-a48c-2fa9a302933c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8954,7 +8954,7 @@
 		(property "Reference" "SW5"
 			(at 6.25 -5.8 0)
 			(layer "F.SilkS")
-			(uuid "8ea1dcc0-0714-48f0-b7da-ca12722750c2")
+			(uuid "bd238e5e-de26-4f05-8538-ede14f5a5ef8")
 			(effects
 				(font
 					(size 1 1)
@@ -8965,7 +8965,7 @@
 		(property "Value" "SW_Push"
 			(at 6.25 10.8 0)
 			(layer "F.Fab")
-			(uuid "3f652743-5028-47a7-a646-ab1f41eb0cf7")
+			(uuid "458279f5-6c1c-4d4a-a8e5-41819ffada1f")
 			(effects
 				(font
 					(size 1 1)
@@ -8978,7 +8978,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67c3de25-aadc-498f-891c-a25c51f6c1ad")
+			(uuid "3af611a2-30c0-4c86-af5d-6979bb451f52")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8991,7 +8991,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd59655d-68d8-42ad-97de-66ec3a5043cc")
+			(uuid "dd0b10c6-bb1e-4631-a993-1d29410374c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26736,6 +26736,90 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_line
+		(start 114 84)
+		(end 204 84)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4f2e670e-23f8-499d-b192-d13aca2eae7d")
+	)
+	(gr_arc
+		(start 109 89)
+		(mid 110.464466 85.464466)
+		(end 114 84)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5c74fb64-0e7c-47f1-b917-c7d44b35cda8")
+	)
+	(gr_line
+		(start 209 89)
+		(end 209 99)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6c0ccc81-e1b1-4c26-9819-73dc2fedf390")
+	)
+	(gr_arc
+		(start 209 99)
+		(mid 207.535534 102.535534)
+		(end 204 104)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "978e408e-bd05-46b2-a03a-3f7be318f744")
+	)
+	(gr_arc
+		(start 204 84)
+		(mid 207.535534 85.464466)
+		(end 209 89)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bae12e19-e9e6-4f6e-9bbf-cdbd761e7e5e")
+	)
+	(gr_line
+		(start 109 99)
+		(end 109 89)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bfa8ae32-0595-4985-801d-37a127e5b0ae")
+	)
+	(gr_arc
+		(start 114 104)
+		(mid 110.464466 102.535534)
+		(end 109 99)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c53b657e-3192-42da-935f-1de585293c98")
+	)
+	(gr_line
+		(start 204 104)
+		(end 114 104)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "eeee43f2-061c-4c09-9abc-4b66786fe5c5")
 	)
 	(embedded_fonts no)
 )
