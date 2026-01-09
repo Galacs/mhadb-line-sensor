@@ -10336,7 +10336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00482710-bd21-4555-b3dd-413c715a9db4")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 29.21 151.13 0)
 			(effects
 				(font
@@ -10387,7 +10387,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10404,7 +10404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0060f90e-306f-4e1d-be73-870c31b795ae")
-		(property "Reference" "H7"
+		(property "Reference" "H5"
 			(at 34.29 85.0899 0)
 			(effects
 				(font
@@ -10453,7 +10453,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "H7")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -10469,7 +10469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00a78955-d3d8-47fb-bfeb-ba0830859f1d")
-		(property "Reference" "D12"
+		(property "Reference" "D19"
 			(at 260.35 126.9298 0)
 			(effects
 				(font
@@ -10566,7 +10566,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D12")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -10581,7 +10581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "011d9c60-bfbf-483c-9028-15e8526cc578")
-		(property "Reference" "C9"
+		(property "Reference" "C4"
 			(at 80.264 46.99 0)
 			(effects
 				(font
@@ -10671,7 +10671,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C9")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10686,7 +10686,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0220de9a-bf20-44a1-b23f-876676a30214")
-		(property "Reference" "R3"
+		(property "Reference" "R8"
 			(at 199.39 41.656 90)
 			(effects
 				(font
@@ -10774,7 +10774,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R3")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10790,7 +10790,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0342e9b2-86e1-4ee9-b02b-e6110e486fee")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR053"
 			(at 243.84 93.98 0)
 			(effects
 				(font
@@ -10840,7 +10840,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR019")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -10856,7 +10856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0374bc77-0950-411f-8dff-be8a1b7794bf")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR013"
 			(at 39.37 121.92 0)
 			(effects
 				(font
@@ -10907,7 +10907,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR051")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10922,7 +10922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06b1455c-da73-46a6-a106-b643d30c2273")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 199.39 83.566 90)
 			(effects
 				(font
@@ -11010,7 +11010,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -11026,7 +11026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07200ce3-8c4d-43d6-844f-0298d69ceb6f")
-		(property "Reference" "D11"
+		(property "Reference" "D17"
 			(at 243.84 126.9298 0)
 			(effects
 				(font
@@ -11123,7 +11123,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D11")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -11138,7 +11138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07ac2222-0e78-4395-a288-94fe7ef68765")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR022"
 			(at 77.47 189.23 0)
 			(effects
 				(font
@@ -11189,7 +11189,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR047")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11205,7 +11205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b29aca8-d8c3-4daa-b4ae-43355fa164de")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR026"
 			(at 124.46 198.12 0)
 			(effects
 				(font
@@ -11256,7 +11256,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR03")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11271,7 +11271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c77a08f-d1c2-41da-9539-8a713a935005")
-		(property "Reference" "R25"
+		(property "Reference" "R6"
 			(at 149.098 109.22 0)
 			(effects
 				(font
@@ -11361,7 +11361,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R25")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -11377,7 +11377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ca68bca-0634-4c02-9d6b-372b4e130b9b")
-		(property "Reference" "R8"
+		(property "Reference" "R3"
 			(at 53.594 132.334 0)
 			(effects
 				(font
@@ -11467,7 +11467,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R8")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11483,7 +11483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cb31811-3909-491b-a742-9a9c5df40b37")
-		(property "Reference" "C7"
+		(property "Reference" "C17"
 			(at 206.502 26.67 0)
 			(effects
 				(font
@@ -11573,7 +11573,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C7")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -11588,7 +11588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d04e2d2-7483-4575-bdd6-87b90740ce6d")
-		(property "Reference" "C2"
+		(property "Reference" "C26"
 			(at 263.398 82.55 0)
 			(effects
 				(font
@@ -11678,7 +11678,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C2")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -11694,7 +11694,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0dfc45f2-b637-4814-9ee3-c0f2919c5e94")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR051"
 			(at 243.84 66.04 0)
 			(effects
 				(font
@@ -11744,7 +11744,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR025")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -11759,7 +11759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11a3d248-4f28-4ed6-b7fb-2c370eb0d848")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR036"
 			(at 190.5 124.46 0)
 			(effects
 				(font
@@ -11809,7 +11809,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR042")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -11825,7 +11825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1269328c-c4a7-4ac9-9854-21c123a34cf8")
-		(property "Reference" "R18"
+		(property "Reference" "R4"
 			(at 91.44 64.77 90)
 			(effects
 				(font
@@ -11913,7 +11913,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R18")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11929,7 +11929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13678d11-8b65-4ae5-9f5c-fb901c12f5c4")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR050"
 			(at 243.84 52.07 0)
 			(effects
 				(font
@@ -11979,7 +11979,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR024")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -11994,7 +11994,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "149ba76a-232b-48a2-90c6-759cbdf59500")
-		(property "Reference" "C18"
+		(property "Reference" "C10"
 			(at 112.014 46.99 0)
 			(effects
 				(font
@@ -12084,7 +12084,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C18")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -12099,7 +12099,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "182663e6-465b-4948-83aa-d54d84cc4688")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR014"
 			(at 40.64 129.54 0)
 			(effects
 				(font
@@ -12149,7 +12149,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR017")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12268,7 +12268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e9d8797-ac6e-4105-a821-e6f4e3ff284f")
-		(property "Reference" "SW3"
+		(property "Reference" "SW4"
 			(at 83.82 189.738 0)
 			(effects
 				(font
@@ -12357,7 +12357,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "SW3")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -12544,7 +12544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "229527e6-842e-4e4a-816d-c892b31f0ca3")
-		(property "Reference" "D17"
+		(property "Reference" "D18"
 			(at 260.35 106.6098 0)
 			(effects
 				(font
@@ -12641,7 +12641,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D17")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -12656,7 +12656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22e3ddea-e622-4bcb-be9f-120b848bd2a6")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR047"
 			(at 226.06 93.98 0)
 			(effects
 				(font
@@ -12706,7 +12706,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR036")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -12721,7 +12721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "235345af-beab-4030-833d-2acc92bc349a")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR029"
 			(at 138.43 180.34 0)
 			(effects
 				(font
@@ -12771,7 +12771,7 @@
 		(instances
 			(project ""
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR04")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12787,7 +12787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26eaaa89-5492-4cdb-a44a-172529fcd672")
-		(property "Reference" "C8"
+		(property "Reference" "C18"
 			(at 206.502 40.64 0)
 			(effects
 				(font
@@ -12877,7 +12877,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C8")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -12892,7 +12892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "277a0d42-5f60-4d02-ad88-0727dea468bb")
-		(property "Reference" "D1"
+		(property "Reference" "D8"
 			(at 122.936 185.166 90)
 			(effects
 				(font
@@ -12983,7 +12983,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D1")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -12998,7 +12998,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28cd1f73-e171-47f5-870f-d5ee840ff85c")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 57.658 185.42 90)
 			(effects
 				(font
@@ -13089,7 +13089,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -13105,7 +13105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "291ff05e-9a6f-4d6b-b08b-ffeca6a35c9d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR054"
 			(at 261.62 38.1 0)
 			(effects
 				(font
@@ -13155,7 +13155,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR012")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -13237,7 +13237,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29c95c61-a0f5-4e0f-b97a-b124534335b4")
-		(property "Reference" "C12"
+		(property "Reference" "C8"
 			(at 91.694 46.99 0)
 			(effects
 				(font
@@ -13327,7 +13327,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C12")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13342,7 +13342,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c6c18ec-6b0a-431b-8892-4c932d1cbddd")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR023"
 			(at 77.47 195.58 0)
 			(effects
 				(font
@@ -13393,7 +13393,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR059")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -13408,7 +13408,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c76946d-194d-431f-b0dd-74d9f40dd03d")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR045"
 			(at 226.06 66.04 0)
 			(effects
 				(font
@@ -13458,7 +13458,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR034")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -13473,7 +13473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2dbb0dc0-a10a-4f98-a7a1-317eedb04af5")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR048"
 			(at 234.95 27.94 0)
 			(effects
 				(font
@@ -13523,7 +13523,7 @@
 		(instances
 			(project ""
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR029")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -13539,7 +13539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2dd18e8d-ce17-4cf5-8756-9ae2f9c1295e")
-		(property "Reference" "C14"
+		(property "Reference" "C7"
 			(at 85.09 88.646 90)
 			(effects
 				(font
@@ -13627,7 +13627,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C14")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -13642,7 +13642,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e5993b2-76a2-47b2-9b83-5bbecc20ae95")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR021"
 			(at 77.47 182.88 0)
 			(effects
 				(font
@@ -13693,7 +13693,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR048")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13708,7 +13708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31964b97-159c-44ef-a385-a49ec1fad15f")
-		(property "Reference" "C3"
+		(property "Reference" "C22"
 			(at 263.398 26.67 0)
 			(effects
 				(font
@@ -13798,7 +13798,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C3")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -13813,7 +13813,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31d25336-5e4b-4962-9d76-f12cee8e9980")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR044"
 			(at 226.06 52.07 0)
 			(effects
 				(font
@@ -13863,7 +13863,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR033")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -13878,7 +13878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32579e1a-0fe4-4b3a-8cb1-6ea73beda2b4")
-		(property "Reference" "R4"
+		(property "Reference" "R9"
 			(at 199.39 55.626 90)
 			(effects
 				(font
@@ -13966,7 +13966,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R4")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -13983,7 +13983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "334e5ea1-0b45-4a6b-bcac-f88888b3da26")
-		(property "Reference" "H6"
+		(property "Reference" "H4"
 			(at 34.29 80.0099 0)
 			(effects
 				(font
@@ -14032,7 +14032,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "H6")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -14048,7 +14048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "343f077d-30ad-403b-9c8c-fabaedd4ae8b")
-		(property "Reference" "D18"
+		(property "Reference" "D20"
 			(at 276.86 106.6098 0)
 			(effects
 				(font
@@ -14145,7 +14145,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D18")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -14161,7 +14161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36228f64-457e-4629-8dba-cd29ab7cc168")
-		(property "Reference" "D15"
+		(property "Reference" "D14"
 			(at 227.33 106.6098 0)
 			(effects
 				(font
@@ -14258,7 +14258,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D15")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -14274,7 +14274,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "370b8a59-9603-47f2-ae27-5b627350c466")
-		(property "Reference" "R26"
+		(property "Reference" "R2"
 			(at 34.036 29.718 0)
 			(effects
 				(font
@@ -14362,7 +14362,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R26")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -14378,7 +14378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a4e800a-2591-4068-9630-435b2a621012")
-		(property "Reference" "D14"
+		(property "Reference" "D12"
 			(at 210.82 106.6098 0)
 			(effects
 				(font
@@ -14475,7 +14475,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D14")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -14490,7 +14490,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b0b1284-cc08-4e76-9812-23ca69605e4b")
-		(property "Reference" "U4"
+		(property "Reference" "U9"
 			(at 252.73 22.352 0)
 			(effects
 				(font
@@ -14584,7 +14584,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "U4")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -14599,7 +14599,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b105663-a5c9-4f73-82bd-81b6a50ec612")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR011"
 			(at 34.29 69.85 0)
 			(effects
 				(font
@@ -14650,7 +14650,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR092")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -14666,7 +14666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c0837af-5e99-42d8-a5cd-a30226e5dc50")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 108.966 186.436 0)
 			(effects
 				(font
@@ -14761,7 +14761,7 @@
 		(instances
 			(project ""
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -14776,7 +14776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c540865-03b1-4cfb-ae1e-46e920ad80cf")
-		(property "Reference" "R7"
+		(property "Reference" "R13"
 			(at 229.87 41.656 90)
 			(effects
 				(font
@@ -14864,7 +14864,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R7")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14880,7 +14880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d9eef72-03db-402b-ba67-0f64da87807f")
-		(property "Reference" "D13"
+		(property "Reference" "D21"
 			(at 276.86 126.9298 0)
 			(effects
 				(font
@@ -14977,7 +14977,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D13")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -15061,7 +15061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "407d4b85-626d-4c9b-ad30-7f0c2a32e1df")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR015"
 			(at 40.64 156.21 0)
 			(effects
 				(font
@@ -15112,7 +15112,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -15127,7 +15127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40814bfa-56ec-480c-b8fd-7912ed5ff8bf")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 112.776 138.176 0)
 			(effects
 				(font
@@ -15375,7 +15375,7 @@
 		(instances
 			(project ""
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -15390,7 +15390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4253d1be-4c94-4908-8d5f-71b76adc395b")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 33.02 147.828 0)
 			(effects
 				(font
@@ -15498,7 +15498,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -15514,7 +15514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4386324a-bdee-4dcd-b638-7c4f701cfb18")
-		(property "Reference" "D19"
+		(property "Reference" "D2"
 			(at 33.528 36.576 90)
 			(effects
 				(font
@@ -15611,7 +15611,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D19")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -15627,7 +15627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "447d8fc9-5d51-49fb-9d91-b3c83df13683")
-		(property "Reference" "R14"
+		(property "Reference" "R24"
 			(at 270.51 55.626 90)
 			(effects
 				(font
@@ -15715,7 +15715,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R14")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -15730,7 +15730,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45e2b14f-aabf-44c7-9f4c-04c6ca02fa4c")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR01"
 			(at 21.59 31.75 0)
 			(effects
 				(font
@@ -15780,7 +15780,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR044")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -15861,7 +15861,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b2e71fc-f759-4372-b4aa-4d77f7e4d384")
-		(property "Reference" "C24"
+		(property "Reference" "C13"
 			(at 141.986 41.91 90)
 			(effects
 				(font
@@ -15951,7 +15951,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C24")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -15966,7 +15966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b52d8cd-b749-46b3-a9a5-e6f6739eaaa9")
-		(property "Reference" "C16"
+		(property "Reference" "C9"
 			(at 101.854 46.99 0)
 			(effects
 				(font
@@ -16056,7 +16056,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C16")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -16071,7 +16071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c12ca6a-04ec-402c-a0a6-1e4ff0e286c9")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 64.516 185.166 90)
 			(effects
 				(font
@@ -16162,7 +16162,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -16178,7 +16178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c2051b9-a800-4f9e-9c2b-476ecffd1a1b")
-		(property "Reference" "C13"
+		(property "Reference" "C6"
 			(at 85.09 78.486 90)
 			(effects
 				(font
@@ -16266,7 +16266,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C13")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -16282,7 +16282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5139c8ab-fafd-4ea8-987f-40072047ce95")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR031"
 			(at 151.13 41.91 0)
 			(effects
 				(font
@@ -16333,7 +16333,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR054")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -16350,7 +16350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5164d2fb-3a5e-4ce7-acb0-b75537c59896")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR02"
 			(at 21.59 53.34 0)
 			(effects
 				(font
@@ -16401,7 +16401,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR045")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -16416,7 +16416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "517851cb-cf5b-4855-be1d-10610191a641")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR059"
 			(at 271.78 127 0)
 			(effects
 				(font
@@ -16467,7 +16467,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR043")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -16483,7 +16483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51daf035-2a1c-4818-907a-fecd8714a8a8")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 30.48 135.89 0)
 			(effects
 				(font
@@ -16534,7 +16534,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -16663,7 +16663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "559bbfcd-a3d5-4fcc-bbb6-c34b3156fb63")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR019"
 			(at 77.47 60.96 0)
 			(effects
 				(font
@@ -16714,7 +16714,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR039")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -16730,7 +16730,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56959deb-fed3-41ce-bbb0-dbbf337dd163")
-		(property "Reference" "C15"
+		(property "Reference" "C20"
 			(at 206.502 68.58 0)
 			(effects
 				(font
@@ -16820,7 +16820,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C15")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -16835,7 +16835,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56aa71bb-9de6-44e4-801b-3d7ab83f5002")
-		(property "Reference" "SW4"
+		(property "Reference" "SW2"
 			(at 83.82 177.038 0)
 			(effects
 				(font
@@ -16924,7 +16924,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "SW4")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -17007,7 +17007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c13d69e-1b7c-4178-823b-448047b2ceae")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR046"
 			(at 226.06 80.01 0)
 			(effects
 				(font
@@ -17057,7 +17057,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR035")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -17072,7 +17072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5de6ea55-a8c1-4e49-91c4-c57a34c0b460")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 83.82 170.688 0)
 			(effects
 				(font
@@ -17161,7 +17161,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -17176,7 +17176,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6118928a-9b83-458d-8fe3-ee1b9da03c81")
-		(property "Reference" "U5"
+		(property "Reference" "U10"
 			(at 252.73 36.322 0)
 			(effects
 				(font
@@ -17270,7 +17270,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "U5")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -17285,7 +17285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61e7f8db-d4b7-4e05-b885-31dd8f33164d")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR018"
 			(at 77.47 45.72 0)
 			(effects
 				(font
@@ -17335,7 +17335,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR038")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -17350,7 +17350,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62166325-728b-44a3-8dc8-09d85a782e0d")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR033"
 			(at 163.83 83.82 0)
 			(effects
 				(font
@@ -17401,7 +17401,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR027")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -17416,7 +17416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62bfbe4e-5f46-4c9c-bf13-4c0dd34230e6")
-		(property "Reference" "D20"
+		(property "Reference" "D11"
 			(at 147.828 114.554 90)
 			(effects
 				(font
@@ -17515,7 +17515,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D20")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -17531,7 +17531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "679137a6-6322-4112-bb5f-7ab2b295beab")
-		(property "Reference" "D9"
+		(property "Reference" "D13"
 			(at 210.82 126.9298 0)
 			(effects
 				(font
@@ -17628,7 +17628,7 @@
 		(instances
 			(project ""
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D9")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -17746,7 +17746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ed72a82-6fa1-48ec-895f-919097319af2")
-		(property "Reference" "R5"
+		(property "Reference" "R10"
 			(at 199.39 69.596 90)
 			(effects
 				(font
@@ -17834,7 +17834,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R5")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -17916,7 +17916,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71279a89-c5cf-4ba7-a3dc-97293f22b131")
-		(property "Reference" "U12"
+		(property "Reference" "U8"
 			(at 217.17 78.232 0)
 			(effects
 				(font
@@ -18010,7 +18010,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "U12")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -18025,7 +18025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72f6781e-4308-457f-9397-14ec548d8497")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 44.704 185.42 90)
 			(effects
 				(font
@@ -18116,7 +18116,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -18132,7 +18132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7333b195-1da3-4519-b794-fba8db0c4fa6")
-		(property "Reference" "C25"
+		(property "Reference" "C14"
 			(at 145.542 58.42 90)
 			(effects
 				(font
@@ -18222,7 +18222,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C25")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -18238,7 +18238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "741b5aae-4781-4c65-a154-eed2e1007470")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR04"
 			(at 21.59 193.04 0)
 			(effects
 				(font
@@ -18289,7 +18289,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR06")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -18305,7 +18305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "760dceab-b59e-4110-9439-c3df4c95376e")
-		(property "Reference" "C6"
+		(property "Reference" "C2"
 			(at 31.75 123.698 90)
 			(effects
 				(font
@@ -18393,7 +18393,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C6")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -18408,7 +18408,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7804ae12-7a4c-4545-8e61-2855915cf8e0")
-		(property "Reference" "C19"
+		(property "Reference" "C15"
 			(at 142.24 177.038 0)
 			(effects
 				(font
@@ -18498,7 +18498,7 @@
 		(instances
 			(project ""
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C19")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -18513,7 +18513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "794e83fb-000b-4b8e-abff-3077b8a0ae1b")
-		(property "Reference" "TP9"
+		(property "Reference" "TP4"
 			(at 98.298 93.218 90)
 			(effects
 				(font
@@ -18565,7 +18565,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "TP9")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -18580,7 +18580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7983703d-9d3a-4b9d-b33e-79a81f2e2a7c")
-		(property "Reference" "TP7"
+		(property "Reference" "TP9"
 			(at 195.834 135.89 0)
 			(effects
 				(font
@@ -18632,7 +18632,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "TP7")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -18647,7 +18647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b3ed80c-e3e1-42d6-aa13-6f9930b69d4a")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR020"
 			(at 77.47 171.45 0)
 			(effects
 				(font
@@ -18697,7 +18697,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR058")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -18714,7 +18714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b6a6288-9e1c-40ec-952a-e19e327d61aa")
-		(property "Reference" "H5"
+		(property "Reference" "H3"
 			(at 34.29 74.9299 0)
 			(effects
 				(font
@@ -18763,7 +18763,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "H5")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -18846,7 +18846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7dccce42-7cf3-452b-bdcd-a76f36b5ce31")
-		(property "Reference" "H3"
+		(property "Reference" "H1"
 			(at 19.05 57.404 0)
 			(effects
 				(font
@@ -18897,7 +18897,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "H3")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -18913,7 +18913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e28caaa-a069-4b65-8139-55eacb18f5df")
-		(property "Reference" "R24"
+		(property "Reference" "R1"
 			(at 25.146 29.718 0)
 			(effects
 				(font
@@ -19001,7 +19001,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R24")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -19016,7 +19016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e996309-995e-4a16-b6a7-7108fdfcc507")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR041"
 			(at 208.28 80.01 0)
 			(effects
 				(font
@@ -19066,7 +19066,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR028")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -19081,7 +19081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f75d7ca-3293-4439-9efe-9463a00ce39b")
-		(property "Reference" "D3"
+		(property "Reference" "D10"
 			(at 138.176 185.166 90)
 			(effects
 				(font
@@ -19172,7 +19172,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D3")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -19187,7 +19187,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8256131b-d38e-4063-b5b2-0915e75cefb4")
-		(property "Reference" "C20"
+		(property "Reference" "C16"
 			(at 147.828 176.784 0)
 			(effects
 				(font
@@ -19277,7 +19277,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C20")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -19293,7 +19293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8855e4c7-bc70-417d-a636-348bea44c0b4")
-		(property "Reference" "C11"
+		(property "Reference" "C5"
 			(at 77.216 63.5 0)
 			(effects
 				(font
@@ -19383,7 +19383,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C11")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -19399,7 +19399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ce08bed-0b2f-4d52-bbd8-1d3cb83a8714")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR032"
 			(at 151.13 59.69 0)
 			(effects
 				(font
@@ -19450,7 +19450,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR055")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -19465,7 +19465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90293a49-3cab-4032-ba69-c3cf8d8e38d4")
-		(property "Reference" "H4"
+		(property "Reference" "H2"
 			(at 32.258 57.404 0)
 			(effects
 				(font
@@ -19516,7 +19516,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "H4")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -19531,7 +19531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "904fb48e-b59c-4f37-b0c6-fd24d4d02f3f")
-		(property "Reference" "TP3"
+		(property "Reference" "TP5"
 			(at 103.886 59.69 0)
 			(effects
 				(font
@@ -19583,7 +19583,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "TP3")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -19599,7 +19599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91ddf325-33b1-486c-8738-35dd767d2301")
-		(property "Reference" "TP4"
+		(property "Reference" "TP6"
 			(at 135.128 49.53 90)
 			(effects
 				(font
@@ -19650,7 +19650,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "TP4")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -19665,7 +19665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "922bb8c4-b195-4fa6-b832-f32c6d79cbe0")
-		(property "Reference" "SW1"
+		(property "Reference" "SW3"
 			(at 83.82 183.388 0)
 			(effects
 				(font
@@ -19754,7 +19754,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "SW1")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -19769,7 +19769,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9307c0ed-b835-4e10-b954-fe6a900ea165")
-		(property "Reference" "U13"
+		(property "Reference" "U1"
 			(at 34.036 113.792 0)
 			(effects
 				(font
@@ -19861,7 +19861,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "U13")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -19877,7 +19877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98ad895a-8b6e-493f-9207-964d71a3d3df")
-		(property "Reference" "C22"
+		(property "Reference" "C1"
 			(at 24.13 109.2199 0)
 			(effects
 				(font
@@ -19967,7 +19967,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C22")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -19982,7 +19982,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98ec8e5e-d1ce-4549-96d4-d0546112022b")
-		(property "Reference" "R2"
+		(property "Reference" "R12"
 			(at 229.87 27.686 90)
 			(effects
 				(font
@@ -20070,7 +20070,7 @@
 		(instances
 			(project ""
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R2")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -20085,7 +20085,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9db83556-ba38-4135-8da7-b43b211665da")
-		(property "Reference" "R12"
+		(property "Reference" "R16"
 			(at 229.87 83.566 90)
 			(effects
 				(font
@@ -20173,7 +20173,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R12")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -20189,7 +20189,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e4bc40e-a854-447a-b721-fb2a42a71afc")
-		(property "Reference" "C10"
+		(property "Reference" "C19"
 			(at 206.502 54.61 0)
 			(effects
 				(font
@@ -20279,7 +20279,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C10")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -20294,7 +20294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9eec39dc-ca56-4998-80be-8cdef0db7f54")
-		(property "Reference" "C21"
+		(property "Reference" "C11"
 			(at 120.904 46.99 0)
 			(effects
 				(font
@@ -20384,7 +20384,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C21")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -20400,7 +20400,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fede606-a8df-4f50-b805-b403368cc047")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR056"
 			(at 261.62 66.04 0)
 			(effects
 				(font
@@ -20450,7 +20450,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR014")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -20465,7 +20465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a08da6aa-8fba-4f3b-b4eb-bc55559f3b5e")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR037"
 			(at 194.31 27.94 0)
 			(effects
 				(font
@@ -20515,7 +20515,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR020")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -20531,7 +20531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1182b2a-92c9-4862-a5a3-2b95bc8aed26")
-		(property "Reference" "U10"
+		(property "Reference" "U6"
 			(at 217.17 50.292 0)
 			(effects
 				(font
@@ -20625,7 +20625,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "U10")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -20708,7 +20708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a16aa27c-4df0-4b94-a4f4-67b718caae1d")
-		(property "Reference" "R22"
+		(property "Reference" "R18"
 			(at 240.03 41.656 90)
 			(effects
 				(font
@@ -20796,7 +20796,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R22")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -20812,7 +20812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2615d1c-81db-4178-858d-c3fc1a35ce50")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR052"
 			(at 243.84 80.01 0)
 			(effects
 				(font
@@ -20862,7 +20862,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR015")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -20877,7 +20877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2b2c65a-dc00-46d9-8761-19432ee857ea")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR039"
 			(at 208.28 52.07 0)
 			(effects
 				(font
@@ -20927,7 +20927,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR022")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -20942,7 +20942,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a41990f7-3b0a-4966-81b4-acfb7ace84f7")
-		(property "Reference" "C5"
+		(property "Reference" "C24"
 			(at 263.398 54.61 0)
 			(effects
 				(font
@@ -21032,7 +21032,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C5")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -21047,7 +21047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5004b09-90b9-4026-8704-2044a8a57df2")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR05"
 			(at 25.4 107.95 0)
 			(effects
 				(font
@@ -21097,7 +21097,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR049")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -21112,7 +21112,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a506a30e-b769-40c6-9498-b6e530e9ff5b")
-		(property "Reference" "C1"
+		(property "Reference" "C25"
 			(at 263.398 68.58 0)
 			(effects
 				(font
@@ -21202,7 +21202,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C1")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -21217,7 +21217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5ab6799-1742-4f7f-8236-b8303a2d72eb")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR038"
 			(at 208.28 38.1 0)
 			(effects
 				(font
@@ -21267,7 +21267,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR021")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -21283,7 +21283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab73740a-890b-4789-a689-43d4a61685c7")
-		(property "Reference" "C17"
+		(property "Reference" "C21"
 			(at 206.502 82.55 0)
 			(effects
 				(font
@@ -21373,7 +21373,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C17")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -21389,7 +21389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afc4ff72-4bca-4898-8913-73fcf1aedbfa")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR027"
 			(at 127 147.32 0)
 			(effects
 				(font
@@ -21440,7 +21440,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR01")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -21456,7 +21456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1dfb15d-e131-4fe9-93c8-2c167ee224ae")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR034"
 			(at 175.26 82.55 0)
 			(effects
 				(font
@@ -21506,7 +21506,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR030")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -21521,7 +21521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2040035-5623-462a-aea2-ae1f9c7ad581")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR042"
 			(at 208.28 93.98 0)
 			(effects
 				(font
@@ -21571,7 +21571,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR031")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -21586,7 +21586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2135d59-a05b-4f79-9e4c-114a92f82895")
-		(property "Reference" "C23"
+		(property "Reference" "C12"
 			(at 145.288 35.814 90)
 			(effects
 				(font
@@ -21676,7 +21676,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C23")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -21691,7 +21691,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b377d5c6-57af-4f23-bc99-a33c1b90b2ec")
-		(property "Reference" "TP8"
+		(property "Reference" "TP7"
 			(at 151.892 62.738 90)
 			(effects
 				(font
@@ -21743,7 +21743,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "TP8")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -21758,7 +21758,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b39ce8dd-32e8-4e22-b536-c9c903250d8b")
-		(property "Reference" "R10"
+		(property "Reference" "R14"
 			(at 229.87 55.626 90)
 			(effects
 				(font
@@ -21846,7 +21846,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R10")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -21862,7 +21862,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4391012-950f-4622-a47d-273cea348498")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR061"
 			(at 275.59 27.94 0)
 			(effects
 				(font
@@ -21912,7 +21912,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR010")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -21928,7 +21928,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4fbd017-1b3a-4ef2-9167-5a41441cf072")
-		(property "Reference" "R16"
+		(property "Reference" "R26"
 			(at 270.51 83.566 90)
 			(effects
 				(font
@@ -22016,7 +22016,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R16")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -22032,7 +22032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5a1f07d-9555-424a-9efa-286624891f3f")
-		(property "Reference" "R21"
+		(property "Reference" "R19"
 			(at 240.03 55.626 90)
 			(effects
 				(font
@@ -22120,7 +22120,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R21")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -22136,7 +22136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5c6cde1-15b9-4114-86ea-624c24c6e84c")
-		(property "Reference" "R15"
+		(property "Reference" "R25"
 			(at 270.51 69.596 90)
 			(effects
 				(font
@@ -22224,7 +22224,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R15")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -22240,7 +22240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b61190c0-2e50-4810-a10f-9fe9897d8f87")
-		(property "Reference" "JP2"
+		(property "Reference" "JP1"
 			(at 59.69 133.3499 90)
 			(effects
 				(font
@@ -22294,7 +22294,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "JP2")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -22310,7 +22310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9b836f6-0f32-4ade-9bed-ef26fb70d4d3")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR012"
 			(at 36.83 198.12 0)
 			(effects
 				(font
@@ -22361,7 +22361,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR07")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -22376,7 +22376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb66fe7b-60ed-4f4b-8f5a-a03ccfae4be3")
-		(property "Reference" "TP6"
+		(property "Reference" "TP8"
 			(at 196.85 115.824 0)
 			(effects
 				(font
@@ -22428,7 +22428,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "TP6")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -22444,7 +22444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbb0aeac-d3dd-4a18-8337-bde39ff3bb55")
-		(property "Reference" "R13"
+		(property "Reference" "R23"
 			(at 270.51 41.656 90)
 			(effects
 				(font
@@ -22532,7 +22532,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R13")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -22547,7 +22547,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc764fae-fac5-41dc-b3e8-d17cf07ac96b")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR028"
 			(at 138.43 36.83 0)
 			(effects
 				(font
@@ -22597,7 +22597,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR052")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -22686,7 +22686,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be748391-5a19-4290-b880-98eacbe5ddb9")
-		(property "Reference" "D2"
+		(property "Reference" "D9"
 			(at 130.556 185.166 90)
 			(effects
 				(font
@@ -22777,7 +22777,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D2")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -22792,7 +22792,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bec4ae3e-d474-4b2a-9689-bb7afc43ad03")
-		(property "Reference" "U6"
+		(property "Reference" "U11"
 			(at 252.73 50.292 0)
 			(effects
 				(font
@@ -22886,7 +22886,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "U6")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -22901,7 +22901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1b1039a-9f2e-4806-b520-a4dc72441418")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR060"
 			(at 271.78 147.32 0)
 			(effects
 				(font
@@ -22952,7 +22952,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR040")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -22967,7 +22967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2ff5875-449e-4566-882b-c207ffa38932")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 38.354 185.674 90)
 			(effects
 				(font
@@ -23058,7 +23058,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -23074,7 +23074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c50e8d68-4544-4785-995e-fa1bd5ee4589")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR016"
 			(at 50.8 121.92 0)
 			(effects
 				(font
@@ -23125,7 +23125,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR053")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -23141,7 +23141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6fd5b90-d004-4fc8-8667-4a0ef00b845e")
-		(property "Reference" "D10"
+		(property "Reference" "D15"
 			(at 227.33 126.9298 0)
 			(effects
 				(font
@@ -23238,7 +23238,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D10")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -23253,7 +23253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9c184dd-0b6c-4d08-be2b-2b2cc4eaa90b")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR035"
 			(at 190.5 104.14 0)
 			(effects
 				(font
@@ -23303,7 +23303,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR037")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -23318,7 +23318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce7b5b3e-3259-42e1-8089-bc45ea559678")
-		(property "Reference" "C4"
+		(property "Reference" "C23"
 			(at 263.398 40.64 0)
 			(effects
 				(font
@@ -23408,7 +23408,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C4")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -23423,7 +23423,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf8413f3-0029-4940-bdff-ec3863b89d9e")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR043"
 			(at 226.06 38.1 0)
 			(effects
 				(font
@@ -23473,7 +23473,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR032")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -23489,7 +23489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfe345e9-3e2a-46d7-b219-27efddd3aa61")
-		(property "Reference" "C26"
+		(property "Reference" "C3"
 			(at 54.61 109.2199 0)
 			(effects
 				(font
@@ -23579,7 +23579,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "C26")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -23594,7 +23594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d19b86a4-b0e5-4a88-a335-b5fba43fbe01")
-		(property "Reference" "R19"
+		(property "Reference" "R5"
 			(at 96.52 86.868 90)
 			(effects
 				(font
@@ -23682,7 +23682,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R19")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -23698,7 +23698,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5b3364f-440b-4f37-ba15-e44493b7253b")
-		(property "Reference" "R17"
+		(property "Reference" "R21"
 			(at 240.03 83.566 90)
 			(effects
 				(font
@@ -23786,7 +23786,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R17")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -23801,7 +23801,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6d32485-bf9a-45a8-8e15-d139b4f177e9")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 51.308 185.42 90)
 			(effects
 				(font
@@ -23892,7 +23892,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -23908,7 +23908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6fa5ac9-b843-4b3f-929d-6ae27ca5f8af")
-		(property "Reference" "U9"
+		(property "Reference" "U5"
 			(at 217.17 36.322 0)
 			(effects
 				(font
@@ -24002,7 +24002,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "U9")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -24017,7 +24017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d74b52b2-0d2a-4aba-9932-63d3c4f5b77e")
-		(property "Reference" "U2"
+		(property "Reference" "U12"
 			(at 252.73 64.262 0)
 			(effects
 				(font
@@ -24111,7 +24111,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "U2")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -24126,7 +24126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7fdc77b-6426-4809-bd74-155280e5e8d6")
-		(property "Reference" "TP5"
+		(property "Reference" "TP3"
 			(at 89.916 163.83 0)
 			(effects
 				(font
@@ -24178,7 +24178,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "TP5")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -24194,7 +24194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d997d7ef-acda-4928-9ae3-f8fcd2ad0fdf")
-		(property "Reference" "U8"
+		(property "Reference" "U4"
 			(at 217.17 22.352 0)
 			(effects
 				(font
@@ -24288,7 +24288,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "U8")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -24303,7 +24303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dadf2e78-5c8a-40d8-8001-cf3e1254a647")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 32.512 181.864 0)
 			(effects
 				(font
@@ -24369,7 +24369,7 @@
 		(instances
 			(project ""
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -24385,7 +24385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db02831f-10f9-4038-a7ec-a8deeab95d18")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR025"
 			(at 115.57 190.5 0)
 			(effects
 				(font
@@ -24436,7 +24436,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR02")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -24452,7 +24452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbe4fdc5-35be-4180-8503-5a9db9272943")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 95.885 110.49 0)
 			(effects
 				(font
@@ -24511,7 +24511,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -24526,7 +24526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc274f56-188a-4203-acf2-81acc9332f41")
-		(property "Reference" "U7"
+		(property "Reference" "U13"
 			(at 252.73 78.232 0)
 			(effects
 				(font
@@ -24620,7 +24620,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "U7")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -24636,7 +24636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd2fb563-ba4d-455e-9fd9-49f776dcd9d8")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR06"
 			(at 27.94 121.92 0)
 			(effects
 				(font
@@ -24687,7 +24687,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR050")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -24702,7 +24702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd69761b-99c2-4b19-afad-9ec278acffb8")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR017"
 			(at 53.34 107.95 0)
 			(effects
 				(font
@@ -24752,7 +24752,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR056")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -24768,7 +24768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfe9ca18-f8e5-4d7b-b7fb-191968eda5b4")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR024"
 			(at 80.01 93.98 0)
 			(effects
 				(font
@@ -24819,7 +24819,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR041")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -24835,7 +24835,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3074e15-0b0d-4707-85fe-06301b6c791d")
-		(property "Reference" "R23"
+		(property "Reference" "R17"
 			(at 240.03 27.686 90)
 			(effects
 				(font
@@ -24923,7 +24923,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R23")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -24938,7 +24938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e917f717-cfb4-4d12-9439-13ba87714d57")
-		(property "Reference" "R11"
+		(property "Reference" "R15"
 			(at 229.87 69.596 90)
 			(effects
 				(font
@@ -25026,7 +25026,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R11")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -25041,7 +25041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef33bcb4-8d64-4dad-8181-de048ca38c5b")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR040"
 			(at 208.28 66.04 0)
 			(effects
 				(font
@@ -25091,7 +25091,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR026")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -25107,7 +25107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef821bcf-12bb-48dc-b930-9646682db481")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR058"
 			(at 261.62 93.98 0)
 			(effects
 				(font
@@ -25157,7 +25157,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR016")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -25172,7 +25172,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f081a7e6-07c7-4b6e-ba63-4341ca310700")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR08"
 			(at 30.48 31.75 0)
 			(effects
 				(font
@@ -25222,7 +25222,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR057")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -25238,7 +25238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f115e5e4-e481-40fd-b47c-990371dcc580")
-		(property "Reference" "D21"
+		(property "Reference" "D1"
 			(at 26.67 36.83 90)
 			(effects
 				(font
@@ -25337,7 +25337,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "D21")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -25353,7 +25353,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1c9f674-038f-4e3d-81cc-7343ae9a51b3")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR049"
 			(at 243.84 38.1 0)
 			(effects
 				(font
@@ -25403,7 +25403,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR023")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -25420,7 +25420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2fd63ed-f2eb-4f31-8c84-3492f9d32f0d")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR09"
 			(at 30.48 53.34 0)
 			(effects
 				(font
@@ -25471,7 +25471,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR060")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -25487,7 +25487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f34d986e-ca40-4a86-87d3-e955a634dcec")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR055"
 			(at 261.62 52.07 0)
 			(effects
 				(font
@@ -25537,7 +25537,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR013")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -25553,7 +25553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f391aec9-809f-4de0-a02c-fdeefb9dba4b")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR030"
 			(at 147.32 130.81 0)
 			(effects
 				(font
@@ -25604,7 +25604,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR046")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -25620,7 +25620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f553bb5b-390e-442f-afa0-2717030add99")
-		(property "Reference" "U11"
+		(property "Reference" "U7"
 			(at 217.17 64.262 0)
 			(effects
 				(font
@@ -25714,7 +25714,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "U11")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -25729,7 +25729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f72a6c3b-e366-4589-87dc-453a788306cc")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 21.59 166.37 0)
 			(effects
 				(font
@@ -25779,7 +25779,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -25795,7 +25795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f831b4c8-5daf-4615-a1d8-9150ab565546")
-		(property "Reference" "R9"
+		(property "Reference" "R22"
 			(at 270.51 27.686 90)
 			(effects
 				(font
@@ -25883,7 +25883,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R9")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -25899,7 +25899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd34ac89-57cd-4865-b310-d1620c369e54")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR057"
 			(at 261.62 80.01 0)
 			(effects
 				(font
@@ -25949,7 +25949,7 @@
 		(instances
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "#PWR011")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -25964,7 +25964,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffc59b96-4236-415b-a77c-63788734d6d9")
-		(property "Reference" "R1"
+		(property "Reference" "R7"
 			(at 199.39 27.686 90)
 			(effects
 				(font
@@ -26052,7 +26052,7 @@
 		(instances
 			(project ""
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
-					(reference "R1")
+					(reference "R7")
 					(unit 1)
 				)
 			)
