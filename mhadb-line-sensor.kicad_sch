@@ -1783,6 +1783,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GLCS:H5VU10U"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "H5VU10U"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "GLCS:Diode_DFN1006"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "H5VU10U_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "H5VU10U_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_CAN_LIN:SN65HVD230"
 			(pin_names
 				(offset 1.016)
@@ -3489,155 +3638,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Pers:H5VU10U"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "H5VU10U"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Pers:Diode_DFN1006"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "H5VU10U_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "H5VU10U_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:HT75xx-1-SOT89"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5205,12 +5205,6 @@
 		(uuid "1efc279d-dd10-4c2c-814b-664f6781e383")
 	)
 	(junction
-		(at 194.2102 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21043eb7-8128-4c7a-b24e-9cd6548ce1a1")
-	)
-	(junction
 		(at 71.12 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5547,6 +5541,12 @@
 		(uuid "bf4de400-865f-42fe-a08f-4f6773468fd4")
 	)
 	(junction
+		(at 120.65 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c10a6cca-0f15-415b-8c41-711ccf64fea3")
+	)
+	(junction
 		(at 236.22 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5643,6 +5643,12 @@
 		(uuid "f240f3d4-096b-4f5b-8808-830bc5c40d13")
 	)
 	(junction
+		(at 194.31 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6a91297-07ec-4ce2-abc8-04a0836ef3a9")
+	)
+	(junction
 		(at 27.94 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5665,6 +5671,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa50abfc-38e4-442c-8b6a-f0c1fc9b1d9f")
+	)
+	(junction
+		(at 132.08 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa5b01fd-d974-4f33-9249-035702a03027")
 	)
 	(no_connect
 		(at 87.63 82.55)
@@ -5836,7 +5848,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 180.34) (xy 138.43 180.34)
+			(xy 120.65 180.34) (xy 132.08 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6103,16 +6115,6 @@
 			(type default)
 		)
 		(uuid "154f3453-0913-4c9c-a6c5-209f5ba70a00")
-	)
-	(wire
-		(pts
-			(xy 276.86 39.37) (xy 275.59 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15f75b85-9a04-43a5-9d5b-fe865af861d0")
 	)
 	(wire
 		(pts
@@ -6536,17 +6538,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.2102 130.81) (xy 195.58 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3206c7c5-99c8-4fd5-8cfa-a8bade21048a")
-	)
-	(wire
-		(pts
-			(xy 190.5 130.81) (xy 194.2102 130.81)
+			(xy 190.5 130.81) (xy 194.31 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7186,16 +7178,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 67.31) (xy 275.59 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ca47b33-2aea-4f19-9778-8b303a9fec12")
-	)
-	(wire
-		(pts
 			(xy 143.51 67.31) (xy 143.51 74.93)
 		)
 		(stroke
@@ -7413,6 +7395,16 @@
 			(type default)
 		)
 		(uuid "6797eb6c-b338-4155-98da-50116319750c")
+	)
+	(wire
+		(pts
+			(xy 119.38 190.5) (xy 120.65 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ad1d79-ec06-44bf-86bf-173c7e04af4f")
 	)
 	(wire
 		(pts
@@ -7723,6 +7715,16 @@
 			(type default)
 		)
 		(uuid "79339c85-4ddc-45a8-8bae-e22d213cd974")
+	)
+	(wire
+		(pts
+			(xy 132.08 180.34) (xy 138.43 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a637050-8cd5-40c1-a435-e5944b1d6e44")
 	)
 	(wire
 		(pts
@@ -8243,16 +8245,6 @@
 			(type default)
 		)
 		(uuid "a510d5b3-e345-4ba8-b48e-8972325328bc")
-	)
-	(wire
-		(pts
-			(xy 276.86 25.4) (xy 275.59 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7df4fe1-e250-4366-9b3a-a2396a18aba7")
 	)
 	(wire
 		(pts
@@ -8956,6 +8948,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 130.81) (xy 195.58 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db41593c-7598-443c-be46-0be3b7a30542")
+	)
+	(wire
+		(pts
 			(xy 81.28 123.19) (xy 87.63 123.19)
 		)
 		(stroke
@@ -9083,16 +9085,6 @@
 			(type default)
 		)
 		(uuid "e3f06552-7e8d-477f-ba8e-697ee686f0c7")
-	)
-	(wire
-		(pts
-			(xy 276.86 53.34) (xy 275.59 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e59840af-5f8d-42da-b912-02570815be72")
 	)
 	(wire
 		(pts
@@ -12272,7 +12264,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pers:H5VU10U")
+		(lib_id "GLCS:H5VU10U")
 		(at 120.65 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12299,7 +12291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pers:Diode_DFN1006"
+		(property "Footprint" "GLCS:Diode_DFN1006"
 			(at 116.205 185.42 0)
 			(effects
 				(font
@@ -12378,7 +12370,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pers:H5VU10U")
+		(lib_id "GLCS:H5VU10U")
 		(at 55.88 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12405,7 +12397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pers:Diode_DFN1006"
+		(property "Footprint" "GLCS:Diode_DFN1006"
 			(at 51.435 185.42 0)
 			(effects
 				(font
@@ -14060,6 +14052,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 119.38 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3df88656-784c-4893-a5bd-0e8b73deea54")
+		(property "Reference" "#FLG01"
+			(at 117.475 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 115.57 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 119.38 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e596713-bf8f-4cd8-bf66-830494ed5b4d")
+		)
+		(instances
+			(project ""
+				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 40.64 149.86 0)
 		(unit 1)
@@ -14969,7 +15029,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pers:H5VU10U")
+		(lib_id "GLCS:H5VU10U")
 		(at 62.23 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14996,7 +15056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pers:Diode_DFN1006"
+		(property "Footprint" "GLCS:Diode_DFN1006"
 			(at 57.785 185.42 0)
 			(effects
 				(font
@@ -15795,6 +15855,74 @@
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
 					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 132.08 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "586ffaf3-2122-4a01-ba32-c1088ca1f4c7")
+		(property "Reference" "#FLG02"
+			(at 132.08 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 132.0801 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 132.08 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5ca0999-58b5-4989-aba1-2e45771de032")
+		)
+		(instances
+			(project "mhadb-line-sensor"
+				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -16717,7 +16845,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pers:H5VU10U")
+		(lib_id "GLCS:H5VU10U")
 		(at 43.18 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16744,7 +16872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pers:Diode_DFN1006"
+		(property "Footprint" "GLCS:Diode_DFN1006"
 			(at 38.735 185.42 0)
 			(effects
 				(font
@@ -17273,7 +17401,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 194.2102 130.81 180)
+		(at 194.31 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17281,7 +17409,7 @@
 		(dnp no)
 		(uuid "7983703d-9d3a-4b9d-b33e-79a81f2e2a7c")
 		(property "Reference" "TP7"
-			(at 195.7342 135.89 0)
+			(at 195.834 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17290,7 +17418,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 191.6702 132.8421 0)
+			(at 191.77 132.8421 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17300,7 +17428,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 189.1302 130.81 0)
+			(at 189.23 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17309,7 +17437,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.1302 130.81 0)
+			(at 189.23 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17318,7 +17446,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 194.2102 130.81 0)
+			(at 194.31 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17641,7 +17769,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pers:H5VU10U")
+		(lib_id "GLCS:H5VU10U")
 		(at 135.89 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17668,7 +17796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pers:Diode_DFN1006"
+		(property "Footprint" "GLCS:Diode_DFN1006"
 			(at 131.445 185.42 0)
 			(effects
 				(font
@@ -21180,7 +21308,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pers:H5VU10U")
+		(lib_id "GLCS:H5VU10U")
 		(at 128.27 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21207,7 +21335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pers:Diode_DFN1006"
+		(property "Footprint" "GLCS:Diode_DFN1006"
 			(at 123.825 185.42 0)
 			(effects
 				(font
@@ -21461,7 +21589,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pers:H5VU10U")
+		(lib_id "GLCS:H5VU10U")
 		(at 36.83 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21488,7 +21616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pers:Diode_DFN1006"
+		(property "Footprint" "GLCS:Diode_DFN1006"
 			(at 32.385 185.42 0)
 			(effects
 				(font
@@ -22259,7 +22387,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Pers:H5VU10U")
+		(lib_id "GLCS:H5VU10U")
 		(at 49.53 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22286,7 +22414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Pers:Diode_DFN1006"
+		(property "Footprint" "GLCS:Diode_DFN1006"
 			(at 45.085 185.42 0)
 			(effects
 				(font
