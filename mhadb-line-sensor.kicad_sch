@@ -4852,7 +4852,7 @@
 		)
 	)
 	(rectangle
-		(start 16.51 52.705)
+		(start 16.51 54.61)
 		(end 38.1 91.44)
 		(stroke
 			(width 0)
@@ -5032,7 +5032,7 @@
 	)
 	(text "PWR\nIndicators"
 		(exclude_from_sim no)
-		(at 27.686 57.404 0)
+		(at 27.432 59.182 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -5056,7 +5056,7 @@
 	)
 	(text "HT753-1 3V3 LDO"
 		(exclude_from_sim no)
-		(at 30.988 97.028 0)
+		(at 30.988 96.774 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -5119,6 +5119,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02fcd4eb-6867-472f-a9cf-531f69b3be9c")
+	)
+	(junction
+		(at 85.09 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "040c2f96-52f7-4f04-bfe8-e060379696f3")
 	)
 	(junction
 		(at 275.59 39.37)
@@ -5199,6 +5205,12 @@
 		(uuid "1efc279d-dd10-4c2c-814b-664f6781e383")
 	)
 	(junction
+		(at 194.2102 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21043eb7-8128-4c7a-b24e-9cd6548ce1a1")
+	)
+	(junction
 		(at 71.12 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5251,6 +5263,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d6856e2-f2c9-46fe-8985-fd32e9a86ea6")
+	)
+	(junction
+		(at 194.31 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ba9fce8-d1c7-46f7-9dba-e176975633cb")
 	)
 	(junction
 		(at 269.24 119.38)
@@ -5347,6 +5365,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ea59e2f-5d04-41ae-83c0-39a60edac439")
+	)
+	(junction
+		(at 91.44 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ffba20e-4748-4a71-8282-1e033ea1eb0f")
 	)
 	(junction
 		(at 118.11 49.53)
@@ -5499,6 +5523,12 @@
 		(uuid "b30f891c-713a-4a80-9a67-e98e9b605d83")
 	)
 	(junction
+		(at 48.26 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5bfa13b-3541-4030-a7c4-de2b8fee4cc1")
+	)
+	(junction
 		(at 234.95 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5527,6 +5557,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6cdd0a3-79b6-44fb-9f04-b23234cc367a")
+	)
+	(junction
+		(at 30.48 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc7026a3-f3b8-4f43-afa2-c7802f819d10")
 	)
 	(junction
 		(at 261.62 86.36)
@@ -5860,7 +5896,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 104.14) (xy 27.94 104.14)
+			(xy 31.75 104.14) (xy 30.48 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6050,7 +6086,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 110.49) (xy 195.58 110.49)
+			(xy 190.5 110.49) (xy 194.31 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6160,7 +6196,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 104.14) (xy 50.8 104.14)
+			(xy 46.99 104.14) (xy 48.26 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6500,7 +6536,17 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 130.81) (xy 195.58 130.81)
+			(xy 194.2102 130.81) (xy 195.58 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3206c7c5-99c8-4fd5-8cfa-a8bade21048a")
+	)
+	(wire
+		(pts
+			(xy 190.5 130.81) (xy 194.2102 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6930,16 +6976,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 68.58) (xy 30.48 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d9f0cf7-0883-4951-82a6-fef0cf277564")
-	)
-	(wire
-		(pts
 			(xy 59.69 57.15) (xy 81.28 57.15)
 		)
 		(stroke
@@ -6997,6 +7033,16 @@
 			(type default)
 		)
 		(uuid "51ae366e-4b57-4ae0-b6fe-5f6d81152e67")
+	)
+	(wire
+		(pts
+			(xy 80.01 92.71) (xy 87.63 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c8f43a-2b5a-4780-8ff5-8206a2fcea54")
 	)
 	(wire
 		(pts
@@ -7087,6 +7133,16 @@
 			(type default)
 		)
 		(uuid "56dfa0f5-e02a-438e-a635-35f3cb873302")
+	)
+	(wire
+		(pts
+			(xy 194.31 110.49) (xy 195.58 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595ea458-f053-4b81-b625-f9389c185412")
 	)
 	(wire
 		(pts
@@ -7550,7 +7606,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 62.23) (xy 123.19 62.23)
+			(xy 129.54 62.23) (xy 123.19 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7790,6 +7846,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 62.23) (xy 81.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8656fc31-5151-4329-91ca-00fa8c308d6e")
+	)
+	(wire
+		(pts
 			(xy 219.71 101.6) (xy 219.71 102.87)
 		)
 		(stroke
@@ -7960,7 +8026,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 62.23) (xy 81.28 62.23)
+			(xy 87.63 62.23) (xy 85.09 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8220,7 +8286,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 168.91) (xy 99.06 168.91)
+			(xy 88.9 168.91) (xy 91.44 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8450,6 +8516,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 168.91) (xy 99.06 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf4ac5b2-9a62-403d-b77f-c1e81b87cd9c")
+	)
+	(wire
+		(pts
 			(xy 57.15 50.8) (xy 57.15 49.53)
 		)
 		(stroke
@@ -8560,6 +8636,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 104.14) (xy 27.94 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a49aa9-0f67-4db5-8b31-6bf330f2641b")
+	)
+	(wire
+		(pts
 			(xy 39.37 128.27) (xy 40.64 128.27)
 		)
 		(stroke
@@ -8567,16 +8653,6 @@
 			(type default)
 		)
 		(uuid "cb00cd04-271a-4964-93aa-fc0ff5372aed")
-	)
-	(wire
-		(pts
-			(xy 21.59 68.58) (xy 21.59 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc6ee783-602d-4dfa-b475-a27dd481fd93")
 	)
 	(wire
 		(pts
@@ -8657,6 +8733,16 @@
 			(type default)
 		)
 		(uuid "d10c524b-d673-4adc-997c-a22de4d392a0")
+	)
+	(wire
+		(pts
+			(xy 48.26 104.14) (xy 50.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1cc66d8-6eb9-4eb5-9896-f83be1f6918f")
 	)
 	(wire
 		(pts
@@ -9080,16 +9166,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 92.71) (xy 87.63 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9435084-bb3f-4db1-8ce7-32f957cc0faa")
-	)
-	(wire
-		(pts
 			(xy 53.34 104.14) (xy 50.8 104.14)
 		)
 		(stroke
@@ -9260,6 +9336,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 68.58) (xy 30.48 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b6c4fd-8654-4b07-8c4c-585634f6a122")
+	)
+	(wire
+		(pts
 			(xy 252.73 102.87) (xy 252.73 101.6)
 		)
 		(stroke
@@ -9337,6 +9423,16 @@
 			(type default)
 		)
 		(uuid "fd10285c-b410-48d1-b3a9-210f7cfa4e23")
+	)
+	(wire
+		(pts
+			(xy 21.59 68.58) (xy 21.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd66bf32-92ef-448b-a852-79f22fe92b58")
 	)
 	(label "LS6"
 		(at 128.27 74.93 180)
@@ -12454,6 +12550,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "29b68245-5fe5-4da9-8aa1-7415efb99596")
+		(property "Reference" "TP2"
+			(at 45.466 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 50.8 102.1079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "336b6c4f-4459-4175-92d7-5e43abde961b")
+		)
+		(instances
+			(project "mhadb-line-sensor"
+				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 68.58 45.72 0)
 		(unit 1)
@@ -14538,7 +14701,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "45e2b14f-aabf-44c7-9f4c-04c6ca02fa4c")
 		(property "Reference" "#PWR044"
 			(at 21.59 72.39 0)
@@ -14550,7 +14712,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 21.59 63.5 0)
+			(at 21.59 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17043,6 +17205,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 80.01 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "794e83fb-000b-4b8e-abff-3077b8a0ae1b")
+		(property "Reference" "TP9"
+			(at 74.93 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 77.9779 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 80.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 80.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "605f6c86-8495-4059-b141-94a827572736")
+		)
+		(instances
+			(project "mhadb-line-sensor"
+				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 194.2102 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7983703d-9d3a-4b9d-b33e-79a81f2e2a7c")
+		(property "Reference" "TP7"
+			(at 195.7342 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 191.6702 132.8421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 189.1302 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.1302 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 194.2102 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71d25fad-c805-4eed-9145-18749af50da1")
+		)
+		(instances
+			(project "mhadb-line-sensor"
+				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 77.47 167.64 0)
 		(unit 1)
@@ -17723,6 +18019,73 @@
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 85.09 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "904fb48e-b59c-4f37-b0c6-fd24d4d02f3f")
+		(property "Reference" "TP3"
+			(at 83.566 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 87.63 60.1979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 90.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 85.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2ff0325-2c45-40fa-acdb-ba614b6f2dbc")
+		)
+		(instances
+			(project "mhadb-line-sensor"
+				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -18771,6 +19134,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 30.48 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a147bc14-7629-4ee1-87ed-62bd93b73a09")
+		(property "Reference" "TP1"
+			(at 28.956 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 33.02 102.1079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 30.48 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14da5a88-e63a-4d5f-bcaf-6ce1288ae8a8")
+		)
+		(instances
+			(project "mhadb-line-sensor"
+				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 240.03 39.37 270)
 		(mirror x)
@@ -19755,6 +20185,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 129.54 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b377d5c6-57af-4f23-bc99-a33c1b90b2ec")
+		(property "Reference" "TP8"
+			(at 131.572 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 131.5721 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 129.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb596f6e-f113-49d5-8ed3-717a6c59d007")
+		)
+		(instances
+			(project "mhadb-line-sensor"
+				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 229.87 53.34 90)
 		(unit 1)
@@ -20367,6 +20864,73 @@
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 194.31 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb66fe7b-60ed-4f4b-8f5a-a03ccfae4be3")
+		(property "Reference" "TP6"
+			(at 196.85 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 191.77 112.5221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 189.23 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 194.31 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dd819d6-ecef-4473-acea-41949d8313e9")
+		)
+		(instances
+			(project "mhadb-line-sensor"
+				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -22014,6 +22578,73 @@
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 91.44 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7fdc77b-6426-4809-bd74-155280e5e8d6")
+		(property "Reference" "TP5"
+			(at 89.916 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 93.98 166.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 96.52 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 91.44 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "523a9e0f-2209-4c74-8d76-c6e163c6c1b2")
+		)
+		(instances
+			(project "mhadb-line-sensor"
+				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
