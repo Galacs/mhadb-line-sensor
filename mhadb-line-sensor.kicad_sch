@@ -5565,6 +5565,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 118.11) (xy 80.01 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ac5f7b-cb37-455d-94f5-00994ada4460")
+	)
+	(wire
+		(pts
 			(xy 252.73 139.7) (xy 269.24 139.7)
 		)
 		(stroke
@@ -6002,6 +6012,16 @@
 			(type default)
 		)
 		(uuid "2598349d-f796-4021-b834-3c2d8748f7cb")
+	)
+	(wire
+		(pts
+			(xy 87.63 110.49) (xy 80.01 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "269421e7-fd38-4c72-8ee7-77b2e8c1792f")
 	)
 	(wire
 		(pts
@@ -6732,6 +6752,16 @@
 			(type default)
 		)
 		(uuid "55a1499d-a4e5-4e94-9adc-28bc9c96315f")
+	)
+	(wire
+		(pts
+			(xy 87.63 113.03) (xy 80.01 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "565f64d4-5a96-402e-a100-4a10c1d65bfd")
 	)
 	(wire
 		(pts
@@ -8672,6 +8702,16 @@
 			(type default)
 		)
 		(uuid "ea33fc54-bec5-45be-9257-306b7d813209")
+	)
+	(wire
+		(pts
+			(xy 87.63 115.57) (xy 80.01 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa8d775-787d-48e6-8d58-fbb76ede1e8f")
 	)
 	(wire
 		(pts
@@ -21345,6 +21385,81 @@
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 74.93 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbe4fdc5-35be-4180-8503-5a9db9272943")
+		(property "Reference" "J3"
+			(at 75.565 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 72.39 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 74.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 74.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5609410d-5663-431c-ac34-7757f80ca99d")
+		)
+		(pin "3"
+			(uuid "5bc03210-c70d-4dfd-8111-98e2057e2bb9")
+		)
+		(pin "2"
+			(uuid "1099d43d-9b35-4a9e-9ff4-3626fccc86d5")
+		)
+		(pin "1"
+			(uuid "0784b7dc-b68a-4796-95e0-aa577e200e4d")
+		)
+		(instances
+			(project "mhadb-line-sensor"
+				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
+					(reference "J3")
 					(unit 1)
 				)
 			)
