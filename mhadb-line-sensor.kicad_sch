@@ -6061,10 +6061,6 @@
 		(uuid "b4523d31-6fe1-49c7-acd3-ffe1787f9456")
 	)
 	(no_connect
-		(at 107.95 113.03)
-		(uuid "cd4d192e-3d85-48e3-836e-f3a60c497738")
-	)
-	(no_connect
 		(at 107.95 120.65)
 		(uuid "df4df0bb-deed-4a49-b8ba-4aa98f6b2512")
 	)
@@ -7127,6 +7123,16 @@
 			(type default)
 		)
 		(uuid "41aeff6f-62db-4fa8-8b11-5987df080bea")
+	)
+	(wire
+		(pts
+			(xy 104.14 113.03) (xy 104.14 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "422e89fb-225c-491c-a16d-9d56962408ad")
 	)
 	(wire
 		(pts
@@ -8947,6 +8953,16 @@
 			(type default)
 		)
 		(uuid "c09d6692-1b95-4414-ab36-2ee32abeb1b9")
+	)
+	(wire
+		(pts
+			(xy 107.95 113.03) (xy 104.14 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a614d0-5aea-4bf2-9339-64b2d24caf2c")
 	)
 	(wire
 		(pts
@@ -11616,6 +11632,73 @@
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cd0512a-ff2e-4711-bcf6-a0e41fbdb4e9")
+		(property "Reference" "#PWR064"
+			(at 104.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69eed920-6aea-477c-bef3-d080d8fc1c87")
+		)
+		(instances
+			(project "mhadb-line-sensor"
+				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
