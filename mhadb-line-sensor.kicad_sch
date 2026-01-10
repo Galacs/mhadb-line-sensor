@@ -6034,10 +6034,6 @@
 		(at 107.95 128.27)
 		(uuid "b4523d31-6fe1-49c7-acd3-ffe1787f9456")
 	)
-	(no_connect
-		(at 107.95 97.79)
-		(uuid "c5506e17-1eab-42f4-bbf1-2e1ee9ca5f68")
-	)
 	(wire
 		(pts
 			(xy 271.78 119.38) (xy 269.24 119.38)
@@ -6427,6 +6423,16 @@
 			(type default)
 		)
 		(uuid "154f3453-0913-4c9c-a6c5-209f5ba70a00")
+	)
+	(wire
+		(pts
+			(xy 96.52 97.79) (xy 96.52 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "164a10ec-baa1-471d-a686-ed3adcc34772")
 	)
 	(wire
 		(pts
@@ -7157,6 +7163,16 @@
 			(type default)
 		)
 		(uuid "4467069b-06b6-43a1-9454-700c20fd130f")
+	)
+	(wire
+		(pts
+			(xy 102.87 97.79) (xy 96.52 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "453cd0c8-2cad-4f6c-ba17-07a019d4529b")
 	)
 	(wire
 		(pts
@@ -24046,6 +24062,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 96.52 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9a1ac03-b347-42f7-9edc-417c9d5941f2")
+		(property "Reference" "#PWR062"
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3739cfdc-c1fe-4795-bfa0-4e630e0afe82")
+		)
+		(instances
+			(project "mhadb-line-sensor"
+				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL")
 		(at 24.13 175.26 0)
 		(unit 1)
@@ -25635,6 +25718,74 @@
 			(project "mhadb-line-sensor"
 				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 105.41 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc4ffc1b-7292-415c-b990-12d780fbec62")
+		(property "Reference" "JP2"
+			(at 102.362 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 105.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba0c3f54-e175-41ee-a6b1-b14d39555222")
+		)
+		(pin "1"
+			(uuid "f29e3018-7cd1-48f2-b326-7626e1a4a41d")
+		)
+		(instances
+			(project ""
+				(path "/dc023b14-f8af-47bb-9afb-84a8ab4a9288"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
