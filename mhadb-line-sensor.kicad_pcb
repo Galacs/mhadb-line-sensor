@@ -9117,7 +9117,7 @@
 				)
 			)
 		)
-		(property "Basic" "Y"
+		(property "Basic" "X"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9130,7 +9130,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C1015"
+		(property "JLCPCB Part #" "C81034"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9143,7 +9143,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Sunlord"
+		(property "Manufacturer" "TDK"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9156,7 +9156,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "GZ2012D101TF"
+		(property "Manufacturer Part Number" "MPZ2012S601ATD25"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
